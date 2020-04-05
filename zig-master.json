@@ -8,6 +8,7 @@
             "url": "https://ziglang.org/builds/zig-windows-x86_64-0.5.0+cd20e0cc6.zip"
         }
     },
+    "extract_dir": "zig-windows-x86_64-0.5.0+cd20e0cc6",
     "bin": "zig.exe",
 
     "checkver": {
