@@ -5,7 +5,7 @@
 
     "architecture": {
         "64bit": {
-            "url": "https://ziglang.org/builds/zig-windows-x86-0.5.0+cd20e0cc6.tar.xz"
+            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.5.0+cd20e0cc6.zip"
         }
     },
     "bin": "zig.exe",
