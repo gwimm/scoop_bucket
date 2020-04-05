@@ -1,5 +1,7 @@
 {
     "homepage": "https://ziglang.org/",
+    "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
+    "license": "MIT",
 
     "version": "0.5.0+cd20e0cc6",
 
@@ -19,8 +21,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ziglang.org/builds/zig-windows-x86$cleanVersion.tar.xz"
+                "url": "https://ziglang.org/builds/zig-windows-x86_64-$version.zip",
+                "extract_dir": "zig-windows-x86_64-$version"
             }
+        },
+        "hash": {
+            "url": "https://ziglang.org/download/index.json",
+            "jsonpath": "$.master.x86_64-windows.shasum"
         }
     }
 }
