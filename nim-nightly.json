@@ -9,20 +9,5 @@
             "extract_dir": "nim-1.3.1-windows_x64"
         }
     },
-    "bin": "nim.exe",
-    ## "checkver": {
-    ##     "github": "https://github.com/nim-lang/nightlies"
-    ## },
-    ## "autoupdate": {
-    ##     "architecture": {
-    ##         "64bit": {
-    ##             "url": "https://ziglang.org/builds/zig-windows-x86_64-$version.zip",
-    ##             "extract_dir": "zig-windows-x86_64-$version",
-    ##             "hash": {
-    ##                 "url": "https://ziglang.org/download/index.json",
-    ##                 "jsonpath": "$.master.x86_64-windows.shasum"
-    ##             }
-    ##         }
-    ##     }
-    ## }
+    "bin": "nim.exe"
 }
